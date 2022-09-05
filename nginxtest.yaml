@@ -18,11 +18,11 @@ spec:
         image: nginx:stable
         resources:
           limits:
-            memory: 200Mi
-            cpu: "200m"
+            memory: 80Mi
+            cpu: "80m"
           requests:
-            memory: 40Mi
-            cpu: "40m"
+            memory: 60Mi
+            cpu: "60m"
         ports:
         - containerPort: 80
 ---
